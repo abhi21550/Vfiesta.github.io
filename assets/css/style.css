@@ -16,12 +16,12 @@ body {
 }
 
 a {
-  color: #720D42;
+  color: #206A7C;
   text-decoration: none;
 }
 
 a:hover {
-  color: #206A7C;
+  color: #720D42;
   text-decoration: white;
 }
 
@@ -31,7 +31,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Nunito Sans",sans-serif; */
+  font-family: 'Inria Serif', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -276,7 +279,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #720D42;
+  color: #206A7C;
 }
 
 .navbar .dropdown ul {
@@ -683,7 +686,7 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: "Nunito Sans",sans-serif;
   color: #fff;
 }
 
