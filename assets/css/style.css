@@ -16,12 +16,12 @@ body {
 }
 
 a {
-  color: #206A7C;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #720D42;
+  color: #004371;
   text-decoration: white;
 }
 
@@ -206,6 +206,12 @@ font-family: 'Nunito Sans', sans-serif;
   max-height: 40px;
 }
 
+@media (max-width: 992px) {
+  #header .logo img {
+    min-height: 40px;
+  }
+
+}
 /*--------------------------------------------------------------
 # Book a table button Menu
 --------------------------------------------------------------*/
