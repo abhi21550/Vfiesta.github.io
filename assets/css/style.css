@@ -48,7 +48,7 @@ font-family: 'Nunito Sans', sans-serif;
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #1a1814;
+  background: #00121E;
 }
 
 #preloader:before {
@@ -57,8 +57,8 @@ font-family: 'Nunito Sans', sans-serif;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #1a1814;
-  border-top-color: #cda45e;
-  border-bottom-color: #cda45e;
+  border-top-color: #720D42;
+  border-bottom-color: #206a7c;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -89,17 +89,17 @@ font-family: 'Nunito Sans', sans-serif;
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-  border: 2px solid #cda45e;
+  border: 2px solid #206A7C;
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #cda45e;
+  color: #206A7C;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #cda45e;
+  background: #206A7C;
   color: #1a1814;
 }
 
@@ -314,7 +314,7 @@ font-family: 'Nunito Sans', sans-serif;
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #cda45e;
+  color: #206A7C;
 }
 
 .navbar .dropdown:hover>ul {
@@ -410,7 +410,7 @@ font-family: 'Nunito Sans', sans-serif;
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #cda45e;
+  color: #206A7C;
 }
 
 .navbar-mobile .getstarted,
@@ -445,7 +445,7 @@ font-family: 'Nunito Sans', sans-serif;
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #cda45e;
+  color: #206A7C;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -694,13 +694,23 @@ section {
   VIDEO              
 -----------------------------------------*/
 .video-container {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+
 }
 
 .video-container video {
-  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
   height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .text-overlay {
@@ -721,7 +731,7 @@ section {
   font-size: 18px;
 }
 
-/* .video-wrap {
+.video-wrap {
   z-index: -100;
 }
 
@@ -732,7 +742,7 @@ section {
   object-fit: fill;
   width: 100%;
   height: 100%;
-} */
+} 
 
 /*--------------------------------------------------------------
 # About
@@ -1930,9 +1940,9 @@ section {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: darkred;
-  border: 2px solid transparent;
-  border-radius: var(--border-radius-large);
+  background: linear-gradient(133deg, #720D42 0%, #454062 59.17%, #206A7C 100%);
+  border: 1px solid #fff;
+  border-radius:100px;
   color: var(--white-color);
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
