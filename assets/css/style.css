@@ -684,7 +684,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family:"Nunito Sans",sans-serif;
 }
 
 .section-title h2::after {
@@ -1131,7 +1131,7 @@ section {
 
 .events::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.8);
+  background: url("../img/V\ Fiesta\ main.png") center center no-repeat;
   position: absolute;
   top: 0;
   right: 0;
