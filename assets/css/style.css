@@ -1172,7 +1172,7 @@ section {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #cda45e;
+  color: #ffb400;
 }
 
 .events .event-item .price {
@@ -1218,7 +1218,7 @@ section {
 }
 
 .events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cda45e;
+  background-color: #720D42;
 }
 
 /*--------------------------------------------------------------
