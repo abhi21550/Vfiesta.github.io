@@ -1220,6 +1220,26 @@ section {
 .events .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #720D42;
 }
+@media (max-width: 768px) {
+  .events {
+    background: url("../img/V\ Fiesta\ main.png") center center no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .events::before {
+    content: "";
+    background: url("../img/V\ Fiesta\ main.png") center center no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .events .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #720D42;
+  }
+}
 
 /*--------------------------------------------------------------
 # Book A Table
