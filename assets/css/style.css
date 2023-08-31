@@ -1065,7 +1065,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Specials
+# 
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
@@ -2240,7 +2240,7 @@ section {
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color:white;
+  color:#720D42;
   font-weight: normal;
   font-size: 16px;
 }
