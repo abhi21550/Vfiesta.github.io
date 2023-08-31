@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
     font-family: "Nunito Sans",sans-serif;
-    background: url("../img/V\ Fiesta\ main.png") center center;
+    background: linear-gradient(-45deg, #74025b, #0c6a95);
     color: #fff;
   }
   
