@@ -662,9 +662,15 @@ font-family: 'Nunito Sans', sans-serif;
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px 30px;
   overflow: hidden;
 }
+
+/* #map{
+  padding: 60px 10px;
+  overflow: hidden;
+} */
+
 
 .section-bg {
   background: url("../img/vbg.png") center center;
