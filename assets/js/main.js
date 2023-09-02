@@ -1,10 +1,4 @@
-/**
-* Template Name: Restaurantly
-* Updated: Jun 15 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -52,7 +46,7 @@
       let section = select(navbarlink.hash)
       if (!section) return
       if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        navbarlink.classList.add('aactive')
+        navbarlink.classList.add('active')
       } else {
         navbarlink.classList.remove('active')
       }
