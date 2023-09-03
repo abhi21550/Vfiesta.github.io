@@ -1446,18 +1446,53 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
-.gallery .gallery-item {
+/* .gallery .gallery-item {
   overflow: hidden;
   border-right: 3px solid #454035;
   border-bottom: 3px solid #454035;
-}
+} */
 
-.gallery .gallery-item img {
+/* .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
 }
 
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
+} */
+
+.cardContainer{
+  position: relative;
+  width: 100%;
+  height: 43vh;
+  perspective: 1000px;
+}
+
+.theRealCard{
+  border: 5px solid white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+
+.theRealCard:hover{
+  transform: rotateY(180deg);
+}
+
+.gallery-item{
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.backOfTheCard{
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  transform: rotateY(180deg);
 }
 
 /*--------------------------------------------------------------
