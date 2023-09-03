@@ -2376,7 +2376,7 @@ section {
 
 @media (max-width: 575px) {
   .event .event-item {
-    min-height: 500px;
+    min-height: 310px;
   }
 }
 
