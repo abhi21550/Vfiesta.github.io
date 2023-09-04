@@ -1500,11 +1500,11 @@ section {
 --------------------------------------------------------------*/
 
 .panelContainer{
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  height: 60vh;
+  height: 55vh;
   perspective: 1000px;
-  /* border: 5px solid white; */
+  border: 5px solid red;
 }
 
 .panelCard{
