@@ -1500,11 +1500,13 @@ section {
 --------------------------------------------------------------*/
 
 .panelContainer{
-  /* position: relative; */
-  width: 100%;
-  height: 55vh;
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
+  height: 0;
+  padding-bottom: 100%;
   perspective: 1000px;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
 .panelCard{
@@ -1539,11 +1541,16 @@ section {
 
 
 .cardBack{
+  padding:15px;
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
   transform: rotateY(180deg);
+  background-color: #004371;
+  padding-top: 30px;
+  font-size:1em;
+  overflow: scroll;
 }
 
 .panelCard:hover{
