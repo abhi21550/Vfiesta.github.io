@@ -1502,7 +1502,8 @@ section {
 .panelContainer{
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 60vh;
+  perspective: 1000px;
   /* border: 5px solid white; */
 }
 
@@ -1512,7 +1513,7 @@ section {
   height: 100%;
   transform-style: preserve-3d;
   transition: all 1s ease;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 
 .cardFront{
@@ -1521,6 +1522,21 @@ section {
   height: 100%;
   backface-visibility: hidden;
 }
+
+.cardFront>img{
+  width: 100%;
+  height:100%
+}
+
+.swiper-wrapper{
+  border: 5px solid white;
+}
+
+/* #panelCardFront1{
+  background-image: url(assets/img/macra.jpg);
+} */
+
+
 
 .cardBack{
   position: absolute;
