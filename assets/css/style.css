@@ -2073,54 +2073,58 @@ section {
 
 #fisatieee{
   background: #fff;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  background: linear-gradient(310deg, #c40067 0%, #454062 59.17%, #206A7C 100%);  
-  box-shadow: none;
+  background: linear-gradient(310deg, rgba(196, 0, 103,0.3) 0%, rgba(69, 64, 98,0.3) 59.17%, rgba(32, 106, 124,0.3) 100%); 
+  backdrop-filter:blur(15px);
+  border: 1px solid rgb(212, 212, 212,0.5);
+  /* box-shadow: none; */
 }
 
 #fisatieee:hover{
   background: #fff;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  background: linear-gradient(337deg,#22166c 59.17%,#1cd3ff 100%);   
-  box-shadow: none;
+  background: linear-gradient(337deg,rgba(34, 22, 108,0.3) 59.17%,rgba(28, 211, 255,0.3) 100%);   
+  backdrop-filter:blur(15px);
+  border: 1px solid rgb(212, 212, 212,0.5);
 }
 
 #ieeemembers{
   background: #fff;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  background: linear-gradient(133deg,#850446 0%,#402abd 59.17%);
-  /* color: #fff; */
-  box-shadow: none;
+  background: linear-gradient(133deg,rgba(133, 4, 70,0.3) 0%,rgba(64, 42, 189,0.3) 59.17%);
+  backdrop-filter:blur(10px);
+  border: 1px solid rgb(212, 212, 212,0.5);
 }
 
 #ieeemembers:hover{
   background: #fff;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  background:linear-gradient(95deg, #c40067 0%, #454062 59.17%, #206A7C 100%); 
-  /* color: #fff; */
-  box-shadow: none;
+  background:linear-gradient(95deg, rgba(196, 0, 103,0.3) 0%, rgba(69, 64, 98,0.3) 59.17%, rgba(32, 106, 124,0.3) 100%); 
+  backdrop-filter:blur(10px);
+  border: 1px solid rgb(212, 212, 212,0.5);
 }
 
 #professionals{
   background: #fff;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  background: linear-gradient(337deg,#22166c 59.17%,#1cd3ff 100%); 
-  box-shadow: none;
+  background: linear-gradient(337deg,rgba(34, 22, 108,0.3) 59.17%,rgba(28, 211, 255,0.3) 100%); 
+  backdrop-filter:blur(15px);
+  border: 1px solid rgb(212, 212, 212,0.5);
 
 }
 
 #professionals:hover{
   background: #fff;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  background:linear-gradient(133deg,#850446 0%,#402abd 59.17%);
-  box-shadow: none;
-
+  background:linear-gradient(133deg,rgba(133, 4, 70,0.3) 0%,rgba(64, 42, 189,0.3) 59.17%);
+  backdrop-filter:blur(15px);
+  border: 1px solid rgb(212, 212, 212,0.5);
 }
 
 
@@ -2137,6 +2141,16 @@ section {
 .pricing.popular .btn-white {
   border: 2px solid #2d71a1;
 }
+
+/* .glass{
+  position: absolute; 
+  background-color: #18d26e;
+  height: 90%;
+  width:90%;
+  border-radius: 5px;
+  background-color:rgba(256,256,256, 0.2);
+  backdrop-filter:blur(20px);
+} */
 
 /* .pricing .box {
   padding: 20px;
