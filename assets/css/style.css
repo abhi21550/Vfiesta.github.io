@@ -2012,7 +2012,7 @@ section {
   border-radius: 10px;
   color: #ffffff;
   background: url("../img/V\ Fiesta\ main.png") center center;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 #commonRegister{
@@ -2026,10 +2026,16 @@ section {
   padding:6vh;
   font-size: large;
   border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(212, 212, 212,0.5);
   /* height: 100%;
   border: 1px solid palegoldenrod;
   
   padding:60px; */
+}
+
+#commonRegister:hover{
+  background: linear-gradient(133deg,rgba(133, 4, 70,1) 0%,rgba(64, 42, 189,1) 59.17%);
 }
 
 #regButton{
