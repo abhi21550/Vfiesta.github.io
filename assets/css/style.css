@@ -2009,10 +2009,31 @@ section {
   color: #fff;
   padding-bottom: 12rem !important;
   position: relative;
-  border-radius: 4px;
+  border-radius: 10px;
   color: #ffffff;
   background: url("../img/V\ Fiesta\ main.png") center center;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+#commonRegister{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid salmon; */
+  background: linear-gradient(133deg, #720D42 0%, #454062 59.17%, #206A7C 100%);
+  margin-top:3vh;
+  padding:6vh;
+  font-size: large;
+  border-radius: 10px;
+  /* height: 100%;
+  border: 1px solid palegoldenrod;
+  
+  padding:60px; */
+}
+
+#regButton{
+  margin-top:2vh;
 }
 
 .pricing h3 {
