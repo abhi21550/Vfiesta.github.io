@@ -1685,6 +1685,11 @@ section {
   animation: spinAround 2s linear infinite;
 }
 
+.center-icon {
+  text-align: center;
+}
+
+
 @keyframes spinAround {
   from {
     transform: rotate(0deg)
